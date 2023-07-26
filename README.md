@@ -1,6 +1,6 @@
 # 0x1B. C-Sorting A;gorithms & Big O
 
-### [0. Bubble sort](./0-bubble_sort.c, 0-O)
+### [0. Bubble sort](./0-bubble_sort.c)
 * A function that sorts an array of integers in ascending order using the Bubble sort algorithm(https://intranet.alxswe.com/rltoken/awhP8BhtkGi-lwmMc2-KAw).
 	- Prototype: void bubble_sort(int *array, size_t size);
 	- Print the array after each time you swap two elements.
@@ -9,7 +9,7 @@
 		- The average case
 		- The worst case
 
-### [1. Insertion sort](./1-insertion_sort_list.c, 1-O)
+### [1. Insertion sort](./1-insertion_sort_list.c)
 * A function that sorts an array of integers in ascending order using the Insertion sort algorithm(https://intranet.alxswe.com/rltoken/GocxRKbPdsmERXeOHMCO2w).
 	- Prototype: void insertion_sort_list(listint_t **list);
 	- Not allowed to modify the integer n of a node. You have to swap the nodes themselves.
@@ -19,7 +19,7 @@
 		- The average case
 		- The worst case
 
-### [2. Selection sort](./2-selection_sort.c, 2-O)
+### [2. Selection sort](./2-selection_sort.c)
 * A function that sorts an array of integers in ascending order using the Selection sort algorithm(https://intranet.alxswe.com/rltoken/SEbg0fBEraioQcl-igvUSw).
 	- Prototype: void selection_sort(int *array, size_t size);
 	- Print the array after each time you swap two elements.
@@ -28,7 +28,7 @@
 		- The average case
 		- The worst case
 
-### [3. Quick sort](./3-quick_sort.c, 3-O)
+### [3. Quick sort](./3-quick_sort.c)
 * A function that sorts an array of integers in ascending order using the Quick sort algorithm(https://intranet.alxswe.com/rltoken/awhP8BhtkGi-lwmMc2-KAw).
 	- Prototype: void quick_sort(int *array, size_t size);
 	- Implement the Lomuto partition scheme.
@@ -38,5 +38,6 @@
 		- The best case
 		- The average case
 		- The worst case
+
 
 ---
