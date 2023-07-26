@@ -111,7 +111,7 @@ A function that sorts an array of integers in ascending order using the Heap sor
 		- The average case
 		- The worst case
 
-### [11. Quick Sort - Hoare Partition scheme](./107-quick_sort_hoare.c, ./107-O)
+### [11. Quick Sort - Hoare Partition scheme](./107-quick_sort_hoare.c)
 * A function that sorts an array of integers in ascending order using the Quick sort algorithm(https://intranet.alxswe.com/rltoken/_pBTrH0Xyo4BRmQn4CtnMg)
 	- Prototype: void quick_sort_hoare(int *array, size_t size);
 	- Implement the Hoare partition scheme.
@@ -122,7 +122,7 @@ A function that sorts an array of integers in ascending order using the Heap sor
 		- The average case
 		- The worst case
 
-### [12. Dealer](./1000-sort_deck.c, ./deck.h)
+### [12. Dealer](./1000-sort_deck.c)
 * A function that sorts a deck of cards.
 	- Prototype: void sort_deck(deck_node_t **deck);
 	- Allowed to use the C standard library function qsort
